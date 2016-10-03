@@ -1,28 +1,13 @@
-== README
+Context:
+We have a warehouse where people "process" items. They record information about each item like: brand, category, size, etc.
+One of the data points we gather is an item's materials.
+An item can be made of multiple materials with specific percentages of each, for example:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Task:
+given a file of historical item data that has:
+[gender, category, brand, material list, count of items with same data]
 
-Things you may want to cover:
+create an api that will create a list of the different materials breakdowns that have historically happened for an item (show UI boxes)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Task 2:
+how would you change this or create a separate API that could update the list of suggested material breakdowns based on the operator's first selection
